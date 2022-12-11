@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>LLNLS</projectKey>
+    <exportDate>2022-12-11 19:08:43 UTC</exportDate>
+    <folders>
+        <folder fullPath="login" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="76788069" key="LLNLS-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Ellen Lima</createdBy>
+            <createdOn>2022-12-11 18:13:30 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro deseja criar uma conta]]></name>
+            <objective><![CDATA[verificar a funcionalidade do login]]></objective>
+            <owner>6255ed0762802600683f1c7a</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar url x&nbsp;]]></description>
+                        <expectedResult><![CDATA[usuario deve visualizar a tela de login]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usuario digita username no campo username]]></description>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
